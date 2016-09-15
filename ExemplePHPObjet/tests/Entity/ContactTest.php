@@ -2,8 +2,6 @@
 
 namespace SmalsTest\Entity;
 
-require_once __DIR__ . '/../../src/Entity/Contact.php';
-
 use PHPUnit\Framework\TestCase;
 use Smals\Entity\Contact;
 
