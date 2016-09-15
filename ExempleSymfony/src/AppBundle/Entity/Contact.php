@@ -47,6 +47,18 @@ class Contact
     }
 
     /**
+     * @param int $id
+     * @return Contact
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+        return $this;
+    }
+
+
+
+    /**
      * Set prenom
      *
      * @param string $prenom
